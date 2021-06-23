@@ -1,0 +1,10 @@
+// printing stuff
+main: function integer() =
+{
+    print "hello kaying\n";
+    print 1, "\n";
+    print true, "\n";
+    print 'c', "\n";
+
+    return 1;
+}

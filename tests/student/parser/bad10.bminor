@@ -1,0 +1,4 @@
+// messing around with token expressions
+main: function void () = {
+	w: integer = + < && ! -- 5;
+}

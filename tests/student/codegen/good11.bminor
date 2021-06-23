@@ -1,0 +1,12 @@
+// modulo operator
+main: function integer() =
+{
+    x:integer = 16;
+    y:integer = 3;
+
+    z:integer = y + x % y;
+
+    print z, "\n";
+
+    return 1;
+}

@@ -1,0 +1,2 @@
+// shouldn't be able to declare variables of type void
+x: void = 3;

@@ -1,0 +1,15 @@
+// stuff that would normally give type errors
+x: integer = 65;
+y: char = 'A';
+bad: function void () = {
+	if (x > y)
+	{
+		print x;
+	}
+	
+	f: integer = 0;
+	if (f)
+	{
+		print f;
+	}
+}

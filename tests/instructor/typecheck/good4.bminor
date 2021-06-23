@@ -1,0 +1,46 @@
+// test character comparisions/headers
+charFxn: function char(x:char)=
+{
+	if(x == 'a')
+	{
+		return 'z';
+	}
+}
+
+glob:integer = 1;
+
+main:function void ()=
+{
+c:char;
+	
+	if('a' == charFxn('c'))
+	{
+		print "unreachable";
+	}
+
+	if('a' != 'a')
+	{
+		print "unreachable";
+	}
+	if(c == 'a')
+	{
+		print "unreachable";
+	}
+	/*
+	if (charFxn('a') == 'z')
+	{
+	    print "unreachable";
+	}
+	*/
+	/*
+	if (glob == 5)
+	{
+	    print "unreachable";
+	}
+	if (glob == 4)
+	{
+	    print "unreachable";
+	}
+	*/
+}
+

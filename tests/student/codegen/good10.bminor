@@ -1,0 +1,31 @@
+// more array element setting
+o: array [6] integer = {1,2,3,4,5,6};
+
+main: function integer() =
+{
+    a:integer = 3;
+
+    print o[3], "\n";
+
+    o[3] = a;
+
+    print o[3], "\n";
+
+    o[3]++;
+    o[3]++;
+    o[3]--;
+    o[3]--;
+
+    print o[3], "\n";
+
+    /*
+    b:integer = o[3];
+
+    print b, "\n";
+
+    c:integer = o[2];
+    
+    print c, "\n";
+    */
+    return 1;
+}

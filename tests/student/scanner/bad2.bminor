@@ -1,0 +1,2 @@
+/* integer overflow */
+i: integral = 922337203\06854775808&;

@@ -1,0 +1,3 @@
+/* prototype function */
+
+main:function void( x:integer,y:integer );

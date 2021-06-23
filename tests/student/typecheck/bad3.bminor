@@ -1,0 +1,7 @@
+// declare a function declaration after a prototype with a different parameter list
+test2:function integer (a:integer, b:boolean);
+test2:function integer (a:integer, b:integer) =
+{ 
+	// c:integer = a + b;
+	return a + b;
+}

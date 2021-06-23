@@ -1,0 +1,17 @@
+// comparison
+main: function integer() =
+{
+    q:integer = 4;
+    p:integer = 3;
+
+    t:boolean = q > p;
+    s:boolean = q < p;
+    r:boolean = q >= p;
+    n:boolean = q <= p;
+    m:boolean = q == p;
+    l:boolean = q != p;
+
+    print t, "\n", s, "\n", r, "\n", n, "\n", m, "\n", l, "\n";
+
+    return 1;
+}

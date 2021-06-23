@@ -1,0 +1,2 @@
+/* string overflow */
+str: string = "wwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\awwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\hwwwwwww\nwwwwwww\ewwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\pwwwwwww\nwwwwwww\n"

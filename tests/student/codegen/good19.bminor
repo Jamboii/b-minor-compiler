@@ -1,0 +1,17 @@
+// incrementing and decrementing global variables
+// this ended up being harder than I thought
+x: integer = 5;
+
+main: function integer() =
+{    
+	x++;
+
+    print x, "\n";
+    print x++, " ", x++, " ", x--, "\n";
+
+    z:integer = x + 5;
+
+    print z, "\n";
+
+	return 1;
+}

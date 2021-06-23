@@ -1,0 +1,44 @@
+// if statements
+
+boolfunc: function boolean(a:boolean, b:boolean) =
+{
+    if (a && b)
+    {
+        print "this is true!\n";
+        return true;
+    }
+    else if (a || b)
+    {
+        print "this is false!\n";
+        return false;
+    }
+    else
+    {
+        print "both are false!\n";
+        return false;
+    }
+    return true;
+}
+
+main: function integer() =
+{
+    a:boolean = true;
+
+    b:boolean = !a;
+
+    print b, "\n";
+
+    
+    c:boolean = boolfunc(a,false);
+
+    if (c)
+    {
+        print "got back a TRUE!\n";
+    }
+    else
+    {
+        print "shucks.\n";
+    }
+
+    return 1;
+}

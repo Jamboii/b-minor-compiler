@@ -1,0 +1,29 @@
+// test functionality of most other type errors
+x:integer = 5;
+y:integer = 10;
+main:function integer ()=
+{
+	x:integer = 5;
+	y:integer = 10;
+	z:array [3] integer = {1,2}; // two elements in a 3-element array
+	if (x+7) // if statement expr which isn't boolean
+	{
+		x:integer = 5;
+		y:integer = 10;
+
+		for (;y+10;y++) // 2nd for loop expression is not boolean
+		{
+			
+			x:char = 'a';
+			y:integer = 10;
+			z:integer = x + y; // char + integer
+		}
+		y = x + y;
+	}
+
+	w: boolean = z < y; // comparison of an array
+
+	print z; // printing an array
+
+	return; // return of type void
+}

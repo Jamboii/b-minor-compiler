@@ -1,0 +1,2 @@
+// assigning a different type with array elements
+w: integer = {1,2,3,4,5};

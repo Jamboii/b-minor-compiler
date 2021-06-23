@@ -1,0 +1,5 @@
+x:integer;
+y:string = "hello";
+z:char = 'a';
+fxn: function void ();
+// w: array [5] array [5] array [5] string;

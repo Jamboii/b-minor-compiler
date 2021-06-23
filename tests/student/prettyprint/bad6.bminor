@@ -1,0 +1,3 @@
+writechar: function integer (char c);
+a: integer = 65 ;
+writechar(a);

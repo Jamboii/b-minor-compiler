@@ -1,0 +1,12 @@
+// Test boolean AND expressions
+y:integer = 10;
+main:function void ()=
+{
+	x: boolean = y > 5;
+	z: boolean = y < 11;
+	if(x && z)
+	{
+		print "ok";
+	}
+
+}

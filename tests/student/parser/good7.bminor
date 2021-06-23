@@ -1,0 +1,8 @@
+// for loops with weird expressions
+single: function void (size: integer) = {
+	for(;size<5;) 
+	{
+	  print i;
+	}
+	if(a) x=y; else z=w;	
+}

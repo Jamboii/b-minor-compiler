@@ -1,0 +1,4 @@
+/* integer lower bound */
+w: integer = -9223372036854775808;
+/* integer upper bound */
+x: integer = 9223372036854775807;

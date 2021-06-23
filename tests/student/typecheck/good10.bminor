@@ -1,0 +1,20 @@
+// imagine someone just learned the quadratic equation yesterday
+a: boolean = true;
+quadratic: function void ( a: integer, b: integer, c: integer ) =
+{
+	print "a = ", a, ", b = ", b, ", c = ", c, "\n";
+
+	q_b: integer = -b;
+	q_sqrt: integer = (b^2 - (4 * a * c))^(1/2);
+
+	num_pos: integer = q_b + q_sqrt;
+	num_neg: integer = q_b - q_sqrt;
+
+	den:     integer = 2 * a;
+
+	x_pos: integer = num_pos / den;
+	x_neg: integer = num_neg / den; 
+
+
+	print "x = ", x_pos, ", ", x_neg;
+}

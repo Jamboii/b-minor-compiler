@@ -1,0 +1,6 @@
+/* parentheses */
+
+main:function integer( x: integer ) =
+{
+	return ((x*(x+5)));
+}

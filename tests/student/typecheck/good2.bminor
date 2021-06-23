@@ -1,0 +1,19 @@
+intFxn: function integer(c:char);
+glob: boolean;
+main:function void ()=
+{
+	if(6 == intFxn('c'))
+	{
+		print "unreachable";
+	}
+	if(intFxn('a') <= 5)
+	{
+		print "reachable";
+	}
+	
+}
+
+intFxn: function integer(c:char)=
+{
+	return 0;
+}

@@ -1,0 +1,13 @@
+// assigning variables
+x:integer = 5;
+
+main: function integer() =
+{
+    print x, "\n";
+    c:integer = 2;
+    d:integer = 3;
+    print c, "\n";
+    print d, "\n";
+
+    return 1;
+}

@@ -1,0 +1,4 @@
+/* some global vars */
+
+x:integer;
+k:array[3]string;

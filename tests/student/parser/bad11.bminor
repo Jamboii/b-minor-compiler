@@ -1,0 +1,2 @@
+// function calls with trailing comma
+w: integer = func(call,trailing,comma,);

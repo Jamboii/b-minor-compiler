@@ -1,0 +1,2 @@
+// pretty sure you can't create arrays of arbitrary size
+w: array [] array [5] array [] string;

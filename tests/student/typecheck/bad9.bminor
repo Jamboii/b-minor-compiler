@@ -1,0 +1,13 @@
+// test 1d array assignments with function calls to indexing with a character
+x:array [5] char = {'a','b','c','d'};
+charFxn: function integer ();
+main:function void () =
+{
+	x[3] = charFxn();
+	x[charFxn()] = 'b';
+	
+}
+charFxn:function char ()=
+{
+	return 'm';
+}

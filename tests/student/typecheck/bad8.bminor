@@ -1,0 +1,13 @@
+// parameter amounts not matching in function prototypes/calls
+x:integer = 5;
+y:integer = 10;
+test:function integer();
+main:function void ()=
+{
+	x:integer = y * 10 + 15 - test(5, 'c');
+}
+test:function integer (z: integer) =
+{
+	// x: array [z] integer;
+	return 5;
+}

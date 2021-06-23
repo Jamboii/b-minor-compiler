@@ -1,0 +1,12 @@
+// a function which adds two arrays
+addarray: function integer (a: array [] integer, b: array [] integer, size: integer) =
+{
+	i: integer;
+	c: array [5] integer;
+	for (i=0;i<size;i++)
+	{
+		c[i] = a[i] + b[i];
+	}
+
+	return c[0];
+}

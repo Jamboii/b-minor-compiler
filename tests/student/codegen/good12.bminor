@@ -1,0 +1,9 @@
+// exponent
+
+main: function integer() =
+{
+    u:integer = 3 ^ 3;
+    print u, "\n";
+
+    return 1;
+}

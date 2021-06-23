@@ -1,0 +1,3 @@
+// resolve error test - declaring two of the same variable in the same scope
+x:integer = 5;
+x:integer = 1;

@@ -1,0 +1,38 @@
+// matched and unmatched for expressions
+single: function void () = {
+	
+	for (;;)
+	{
+		for (;;)
+		{
+			if (a)
+			{
+			  if (b)
+			  {
+			    print c, "\n";
+			  }
+			  else
+			  {
+			    print d, "\n";
+			  }
+			}
+		}
+	}
+	
+
+	for (;;)
+	{
+		if (b)
+		{
+		  if (d)
+		  {
+		    print e; "\n";
+		  }
+		}
+		else
+		{
+		  print "no shot\n";
+		}
+	}
+	
+}

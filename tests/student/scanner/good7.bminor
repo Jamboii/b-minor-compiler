@@ -1,0 +1,4 @@
+/* another function with an exponent */
+square: function integer ( x: integer ) = {
+	return x^2;
+}

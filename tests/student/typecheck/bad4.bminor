@@ -1,0 +1,7 @@
+// declare a function with an auto param
+main: function void (z: auto) =
+{
+	x: auto = 5 + 10;
+	b: auto;
+	b = x < 20;
+}

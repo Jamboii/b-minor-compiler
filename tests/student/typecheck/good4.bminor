@@ -1,0 +1,6 @@
+main: function void () =
+{
+	x: auto = 5 + 10;
+	b: auto;
+	b = x < 20;
+}

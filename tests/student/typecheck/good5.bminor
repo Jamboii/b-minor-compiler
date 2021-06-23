@@ -1,0 +1,8 @@
+main: function auto () =
+{
+	a: integer = 5;
+	b: integer = 3;
+
+	// return 1;
+	return a > b;
+}

@@ -1,0 +1,4 @@
+// pretty sure you can't initialize arrays with elements not matching the amount being declared
+// PUT THIS OFF FOR NOW
+w: array [5] integer = {1,2,3};
+;

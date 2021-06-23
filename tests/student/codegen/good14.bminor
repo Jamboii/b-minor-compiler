@@ -1,0 +1,16 @@
+// logic or and logic and
+main: function integer() =
+{
+	q:integer = 4;
+    p:integer = 3;
+
+    t:boolean = q > p;
+    m:boolean = q == p;
+    l:boolean = q != p;
+
+    k:boolean = t && m;
+    j:boolean = t && l;
+    print k, " ", j, " ", k || j, "\n";
+
+	return 1;
+}

@@ -1,0 +1,4 @@
+/* string and identifier limits*/
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+str: string = "wwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\nwwwwwww\awwwwwww"
+'h'

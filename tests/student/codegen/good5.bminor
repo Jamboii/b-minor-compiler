@@ -1,0 +1,19 @@
+// complex operations
+x: integer = 5;
+main: function integer() =
+{
+    c:integer = 2;
+    d:integer = 3;
+    print c, "\n";
+    print d, "\n";
+
+    e:integer = c + d;
+    print e, "\n";
+
+    f:integer = (c + x) * e / 5;
+    g:integer = (c + d) * e / 5;
+    print f, "\n";
+    print g, "\n";
+
+    return 1;
+}

@@ -1,0 +1,22 @@
+// function calling a function
+func2: function void(z:integer) =
+{
+    w:integer = 8 + z;
+    print w, "\n";
+    // return;
+}
+
+func: function integer(x:integer, y:integer) =
+{
+    z: integer = 3;
+    func2(z);
+    return z;
+}
+
+main: function integer() =
+{
+    h:integer = func(2,3);
+    print h, "\n";
+
+    return 1;
+}

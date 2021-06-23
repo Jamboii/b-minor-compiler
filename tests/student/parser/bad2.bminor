@@ -1,0 +1,4 @@
+// pretty sure you can't create arrays of zero length
+// PUT THIS OFF FOR NOW
+w: array [0] string;
+;

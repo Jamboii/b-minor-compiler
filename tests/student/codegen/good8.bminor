@@ -1,0 +1,20 @@
+// Uses a complex expression, with a function call
+// but this time we're printing it
+x:integer=6;
+fxnCall:function integer() =
+{
+	return x*5;
+}
+fxnBool:function boolean() =
+{
+	return true;
+}
+main:function integer () =
+{
+	y:integer = 2;
+	// z: boolean = ((x + 10) > y) && fxnBool();
+	z:integer = (x + 10) * y - fxnCall();
+	// z:integer = fxnCall() - (x + 10);
+	print z, "\n";
+	return (x + 10) * y - fxnCall();
+}

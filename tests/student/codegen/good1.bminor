@@ -1,0 +1,175 @@
+// Main playground: declare a global and local variable, return the local variable
+
+x: integer = 5;
+// y: integer = 3;
+// o: array [5] integer = {1,2,3,4,5};
+// arr: array [6] integer;
+
+/*
+func2: function void(z:integer) =
+{
+    w:integer = 8 + z;
+    // print z, "\n";
+    // return;
+}
+
+func: function integer(x:integer, y:integer) =
+{
+    z: integer = 3;
+    // w:integer = z + x;
+    func2(2);
+    return z;
+}
+*/
+
+/*
+boolfunc: function boolean(a:boolean, b:boolean) =
+{
+    if (a && b)
+    {
+        print "this is true!\n";
+        return true;
+    }
+    else if (a || b)
+    {
+        print "this is false!\n";
+        return false;
+    }
+    else
+    {
+        print "both are false!\n";
+        return false;
+    }
+    return true;
+}
+*/
+
+main: function integer() =
+{
+    /*
+    print "hello kaying\n";
+    print 1, "\n";
+    print true, "\n";
+    print 'c', "\n";
+    */
+    // print x, "\n";
+    // c:integer = 2;
+    // d:integer = 3;
+    // print c, "\n";
+    // print d, "\n";
+
+    // e:integer = c + d;
+    // print e, "\n";
+
+    // f:integer = (c + x) * e / 5;
+    // g:integer = (c + d) * e / 5;
+    // print f, "\n";
+    // print g, "\n";
+
+    // h:integer = func(1,2);
+    // print h, "\n";
+
+    // a:integer = o[1] * o[2] - 3;
+
+    // print a, "\n";
+
+    /*
+    a:integer = 3;
+    o[3] = a;
+
+    b:integer = o[3];
+    */
+
+    // c:integer = o[2];
+    
+    // print c, "\n";
+
+    // b:integer = 4;
+
+    // b = a - 3;
+
+    // x:integer = 16;
+    y:integer = 3;
+
+    // z:integer = y + x % y;
+
+    // print z, "\n";
+
+    // u:integer = 3 ^ 3;
+
+    // q:integer = 4;
+    // p:integer = 3;
+
+    // t:boolean = q > p;
+    // s:boolean = q < p;
+    // r:boolean = q >= p;
+    // n:boolean = q <= p;
+    // m:boolean = q == p;
+    // l:boolean = q != p;
+
+    // print t, "\n", s, "\n", r, "\n", n, "\n", m, "\n", l, "\n";
+
+    // k:boolean = t && m;
+    // j:boolean = t && l;
+    // print k, " ", j, " ", k && j, "\n";
+
+    // k = j;
+    // j = !j;
+
+    // r: integer = 5;
+
+    // r++;
+
+    // print k, " ", j, " ", k && j, "\n";
+
+    // print r, "\n";
+
+    // r--;
+    // r--;
+
+    // print r, "\n";
+
+    // a:boolean = true;
+
+    // b:boolean = false;
+
+    // b:boolean = !a;
+
+    // print b, "\n";
+
+    /*
+    c:boolean = boolfunc(a,true);
+
+    if (c)
+    {
+        print "got back a TRUE!\n";
+    }
+    else
+    {
+        print "shucks.\n";
+    }
+    */
+
+    /*
+    i: integer;
+    j: integer = 0;
+    
+    for (i=0;i<5;i++)
+    {
+        j++;
+        print j, "\n";
+    }
+    */
+
+    // x++;
+
+    // print x, "\n";
+    // print x++, " ", x++, " ", x--, "\n";
+
+    // z:integer = x + 5;
+
+    // print z, "\n";
+    
+
+    return y;
+}

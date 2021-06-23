@@ -1,0 +1,14 @@
+/* some weird token scanning */
+
+"welcome \\"
+
+" \n \t \0"
+"\l \r \x"
+" \n \n \0"
+" \n \t \0"
+"\e \r \y"
+"\0 \0 \r \n \t \0"
+" \n \t \0"
+"\h\rello this is test string\0"
+"\t \6 \u"
+'\0'

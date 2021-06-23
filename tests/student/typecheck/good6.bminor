@@ -1,0 +1,9 @@
+main: function auto () =
+{
+	a: auto = 5;
+	b: auto;
+	b = 'c';
+
+	return "string";
+	// return 6;
+}

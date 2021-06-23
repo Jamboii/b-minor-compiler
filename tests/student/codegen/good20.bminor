@@ -1,0 +1,12 @@
+// printing an array
+arr: array [5] integer = {1,2,3,4,5};
+
+main: function integer() =
+{
+    i: integer;
+    for (i=0;i<5;i++)
+    {
+        print arr[4], "\n";
+    }
+    return 1;
+}

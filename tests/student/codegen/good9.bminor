@@ -1,0 +1,13 @@
+// array stuff
+o: array [5] integer = {1,2,3,4,5};
+
+main: function integer() = 
+{
+	print o[1], "\n";
+
+	a:integer = o[1] * o[2] - 3;
+
+    print a, "\n";
+
+	return 1;
+}

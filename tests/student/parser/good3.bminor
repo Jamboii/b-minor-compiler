@@ -1,0 +1,4 @@
+w: integer = 5;
+square: function integer ( x: integer ) = {
+	return;
+}

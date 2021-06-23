@@ -1,0 +1,7 @@
+// array with size as function argument
+z: integer;
+w: integer = 4;
+single: function void (a: array [5] integer, size: integer) = {
+	for(;;) print a;
+	if(a) x=y; else z=w;	
+}

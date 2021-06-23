@@ -1,0 +1,11 @@
+// function that returns a function
+main: function function integer (z: integer) (y: integer) =
+{
+	friend: integer = 4;
+	main2: function integer (z: integer)
+	{
+		return 1;
+	}
+
+	return main2;
+}

@@ -1,0 +1,10 @@
+i: integer;
+a: boolean = true;
+x: integer;
+y: integer = 5;
+z: integer;
+w: integer = 4;
+single: function void () = {
+	for(;;) print i;
+	if(a) x=y; else z=w;	
+}

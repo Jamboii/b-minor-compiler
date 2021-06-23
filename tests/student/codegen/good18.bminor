@@ -1,0 +1,14 @@
+// loops
+main: function integer() =
+{
+    i: integer;
+    j: integer = 0;
+    
+    for (i=0;i<5;i++)
+    {
+        j++;
+        print j, "\n";
+    }
+
+    return 1;
+}

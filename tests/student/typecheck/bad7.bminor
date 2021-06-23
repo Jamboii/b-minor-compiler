@@ -1,0 +1,9 @@
+// function which returns an array of functions
+// function that returns a function
+main: function array [10] function integer (z: integer) (y: integer) =
+{
+
+	x: array [10] function integer (x: integer);
+
+	return x;
+}

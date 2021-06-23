@@ -1,0 +1,16 @@
+// increment and decrement
+main: function integer() =
+{
+	r: integer = 5;
+
+    r++;
+
+	print r, "\n";
+
+    r--;
+    r--;
+
+    print r, "\n";
+
+	return 1;
+}

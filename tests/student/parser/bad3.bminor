@@ -1,0 +1,2 @@
+// pretty sure you can't initialize empty arrays
+w: array [5] string = {};

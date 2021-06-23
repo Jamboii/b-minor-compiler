@@ -1,0 +1,10 @@
+// arrays of functions
+func1: function integer ();
+func2: function integer ();
+
+main: function integer (z: integer) =
+{
+	x: array [10] function integer (x: integer);
+
+	return 1;
+}
