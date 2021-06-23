@@ -14,6 +14,6 @@ The compiler was tested and verified using a Raspberry Pi 4 Model B with 2GB of 
 | `./bminor -print FILENAME.bminor` | Print back parsed B-Minor code |
 | `./bminor -typecheck FILENAME.bminor` | Ensure proper type compatibility of B-Minor code |
 | `./bminor -codegen FILENAME.bminor FILENAME.s` | Generate ARMv8 Assembly code |
-| `./gcc -g FILENAME.s library.c -o PROGRAM | Compile generated ARMv8 Assembly into an executable |
+| `./gcc -g FILENAME.s library.c -o PROGRAM` | Compile generated ARMv8 Assembly into an executable |
 
 Note that each of the above commands is a prerequisite to the command on the next row. Meaning, that if for example you were to execute typechecking, the commands for scanning, parsing, and printing will be ran before typechecking can be ran.
